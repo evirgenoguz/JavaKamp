@@ -1,0 +1,7 @@
+package gun5Odev1.dataAccess.concretes;
+
+import gun5Odev1.entities.concretes.User;
+
+public class DbSimulation {
+	private User users;
+}

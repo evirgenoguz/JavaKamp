@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="oopIntro.Product"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="gun2Odev1.Kayit"/>
     <fullyQualifiedTypeName name="nLayeredDemo.entities.abstracts.Entity"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.abstracts.ProductDao"/>
     <fullyQualifiedTypeName name="nLayeredDemo.business.abstracts.ProductService"/>
     <fullyQualifiedTypeName name="nLayeredDemo.business.concretes.ProductManager"/>
@@ -15,4 +13,23 @@
     <fullyQualifiedTypeName name="nLayeredDemo.jLogger.JLoggerManager"/>
     <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
     <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.AbcProductDao"/>
+    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.sun.tools.doclint.Entity"/>
+    <fullyQualifiedTypeName name="gun5Odev1.entities.abstracts.Entity"/>
+    <fullyQualifiedTypeName name="gun5Odev1.business.abstracts.AuthService"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="gun5Odev1.business.abstracts.UserService"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="gun5Odev1.core.utils.Regexs"/>
+    <fullyQualifiedTypeName name="gun5Odev1.dataAccess.abstracts.UserDao"/>
+    <fullyQualifiedTypeName name="gun5Odev1.business.concretes.UserManager"/>
+    <fullyQualifiedTypeName name="gun5Odev1.dataAccess.concretes.HibernateUserDao"/>
+    <fullyQualifiedTypeName name="gun5Odev1.dataAccess.concretes.DbSimulation"/>
+    <fullyQualifiedTypeName name="gun5Odev1.business.concretes.AuthManager"/>
+    <fullyQualifiedTypeName name="gun5Odev1.entities.concretes.User"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="gun5Odev1.googleLogger.GoogleLoggerManager"/>
+    <fullyQualifiedTypeName name="gun5Odev1.core.abstracts.GoogleLoggerService"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,52 @@
+package gun5Odev1;
+
+import java.util.Scanner;
+
+import gun5Odev1.business.concretes.UserManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		UserManager userManager = new UserManager();
+		
+		
+		System.out.println("Gün 5 Odev 1");
+		
+		System.out.println("1 - Giriþ Yap");
+		System.out.println("2 - Kayýt Ol");
+		
+		int userInput = scanner.nextInt();
+		
+		System.out.println("***********************************");
+		
+		
+		if (userInput == 1) {
+			System.out.println("Kullanici giriþ yapacak");
+			
+			System.out.println("E - Mail : ");
+			String mail = scanner.next();
+			String password = scanner.next();
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+		else if(userInput == 2) {
+			System.out.println("Kullanýcý kayýt olacak");
+		}
+		
+		
+		
+		
+		
+	}
+
+}

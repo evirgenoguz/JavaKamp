@@ -1,0 +1,5 @@
+package gun5Odev1.business.abstracts;
+
+public interface UserService {
+
+}

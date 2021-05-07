@@ -1,0 +1,69 @@
+package gun5Odev1.business.concretes;
+
+import gun5Odev1.business.abstracts.AuthService;
+import gun5Odev1.business.abstracts.UserService;
+import gun5Odev1.core.utils.Regexs;
+import gun5Odev1.entities.concretes.User;
+
+public class AuthManager implements AuthService {
+
+	UserService userService;
+	
+	
+	
+	
+	public AuthManager(UserService userService) {
+		super();
+		this.userService = userService;
+	}
+
+	@Override
+	public void register(User user) {
+		if(userControl(user) && userExist(user.getEmail()) && checkPassword(user.getPassword()) 
+				&& Regexs.emailValidate(user.getEmail()) ) {
+			
+			userService.add();
+		}
+		else {
+			System.out.println("Kayýt Baþarýsýz");
+		}
+		
+		
+	}
+
+	@Override
+	public void login(String email, String password) {
+		User user = userService.getByMail(email);
+		
+		if(user != null && user.getPassword().equals(user.getPassword())) {
+			System.out.println("Giriþ Baþarýlý");
+		}
+		else {
+			System.out.println("Giriþ Baþarýsýz");
+		}
+		
+	}
+
+	@Override
+	public boolean userExist(String email) {
+		if(userService.getByMail(email)!=null) {		
+			System.out.println("User already exist");
+			return false;
+		}
+		return true;
+	}
+	
+	
+	public boolean userControl(User user) {
+		return true;
+	}
+	
+	public boolean checkPassword(String password) {
+		if(password.length() < 6) {
+			System.out.println("Parola en az 6 karakter olmalýdýr.");
+			return false;
+		}
+		return true;
+	}
+
+}

@@ -1,0 +1,13 @@
+package gun5Odev1.core.adapters;
+
+import gun5Odev1.core.abstracts.GoogleLoggerService;
+
+public class GoogleLoggerManagerAdapter implements GoogleLoggerService {
+
+	@Override
+	public void sendMail(String email, String message) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

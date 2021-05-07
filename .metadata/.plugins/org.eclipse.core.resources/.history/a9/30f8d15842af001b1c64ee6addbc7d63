@@ -1,0 +1,9 @@
+package gun5Odev1.business.abstracts;
+
+import gun5Odev1.entities.concretes.User;
+
+public interface AuthService {
+	public void register(User user);
+	public void login(User user);
+	public boolean userExist(String email);
+}

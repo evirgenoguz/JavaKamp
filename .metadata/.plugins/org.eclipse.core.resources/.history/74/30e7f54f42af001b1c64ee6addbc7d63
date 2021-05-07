@@ -1,0 +1,59 @@
+package gun5Odev1.business.concretes;
+
+import gun5Odev1.business.abstracts.AuthService;
+import gun5Odev1.business.abstracts.UserService;
+import gun5Odev1.core.utils.Regexs;
+import gun5Odev1.entities.concretes.User;
+
+public class AuthManager implements AuthService {
+
+	UserService userService;
+	
+	
+	
+	
+	public AuthManager(UserService userService) {
+		super();
+		this.userService = userService;
+	}
+
+	@Override
+	public void register(User user) {
+		if(userControl(user) && userExist(user.getEmail()) && checkPassword(user.getPassword()) 
+				&& Regexs.emailValidate(user.getEmail()) ) {
+			
+			userService.add();
+		}
+		else {
+			System.out.println("Kayýt Baþarýsýz");
+		}
+		
+		
+	}
+
+	@Override
+	public void login(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean userExist(String email) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
+	public boolean userControl(User user) {
+		return true;
+	}
+	
+	public boolean checkPassword(String password) {
+		if(password.length() < 6) {
+			System.out.println("Parola en az 6 karakter olmalýdýr.");
+			return false;
+		}
+		return true;
+	}
+
+}

@@ -1,0 +1,22 @@
+package gun5Odev1;
+
+import com.sun.tools.jdeprscan.scan.Scan;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scan(System.in);
+		System.out.println("Gün 5 Odev 1");
+		
+		System.out.println("1 - Giriþ Yap");
+		System.out.println("2 - Kayýt Ol");
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package gun5Odev1.core.adapters;
+
+import gun5Odev1.core.abstracts.GoogleLoggerService;
+
+public class GoogleLoggerManagerAdapter implements GoogleLoggerService {
+
+}

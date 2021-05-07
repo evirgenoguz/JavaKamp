@@ -1,0 +1,5 @@
+package gun5Odev1.dataAccess.concretes;
+
+public class HibernateUserDao {
+
+}
