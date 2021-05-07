@@ -1,0 +1,20 @@
+package inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Customer customer1 = new Customer();
+		
+		IndividualCustomer oguz = new IndividualCustomer();
+		oguz.customerNumber = "12345";
+		
+		
+		CorporateCustomer hepsiBurada = new CorporateCustomer();
+		hepsiBurada.companyName = "Hepsi Burada";
+		
+		CustomerManager customerManager = new CustomerManager();
+		customerManager.Add(hepsiBurada);
+		customerManager.Add(oguz);
+	}
+
+}

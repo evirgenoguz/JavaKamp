@@ -1,0 +1,9 @@
+package gun3Odev2;
+
+public class User {
+	private int id;
+	private String name;
+	private String LastName;
+	private String email;
+	private String password;
+}

@@ -1,0 +1,16 @@
+package gun3Odev2;
+
+public class Student  extends User{
+	
+	private String studentNo;
+
+	
+	public Student(int id, String name, String lastName, String email, String password, String studentNo) {
+		super(id, name, lastName, email, password);
+		this.studentNo = studentNo;
+	}
+	
+	
+	
+	
+}
