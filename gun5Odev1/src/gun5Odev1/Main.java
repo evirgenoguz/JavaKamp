@@ -14,7 +14,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		
-		UserManager userManager = new UserManager(new HibernateUserDao(new DbSimulation()));
+		UserManager userManager = new UserManager(new HibernateUserDao(new DbSimulation()), null);
 		AuthManager authManager = new AuthManager(userManager);
 		
 		System.out.println("Gün 5 Odev 1");
