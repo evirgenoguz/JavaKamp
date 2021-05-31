@@ -1,7 +1,0 @@
-package gun5Odev1.business.concretes;
-
-import gun5Odev1.business.abstracts.AuthService;
-
-public class AuthManager implements AuthService {
-
-}

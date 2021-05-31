@@ -1,7 +1,0 @@
-package gun5Odev1.business.abstracts;
-
-public interface AuthService {
-	public void register();
-	public void login();
-	public boolean userExist(String email;)
-}

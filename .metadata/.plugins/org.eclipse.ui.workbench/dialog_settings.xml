@@ -6,6 +6,7 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="org.eclipse.egit.ui.StagingView"/>
 			<item value="org.eclipse.ui.views.ContentOutline"/>
 			<item value="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 			<item value="org.eclipse.tm4e.ui.preferences.ThemePreferencePage"/>
@@ -13,14 +14,17 @@
 		<list key="orderedProviders">
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
 			<item value="2"/>
 			<item value="2"/>
 			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="git"/>
 			<item value="outli"/>
 			<item value="outl"/>
 			<item value="tas"/>
