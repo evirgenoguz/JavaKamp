@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="product2.id = 1;"/>
+		<item key="selection" value="package com.example.hrmsProject.core.utilities.adapters.abstracts;"/>
 		<list key="findhistory">
+			<item value="package com.example.hrmsProject.core.utilities.adapters.abstracts;"/>
 			<item value="product2.id = 1;"/>
 		</list>
 	</section>

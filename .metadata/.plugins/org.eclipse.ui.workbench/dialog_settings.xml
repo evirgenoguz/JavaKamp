@@ -6,12 +6,18 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="org.eclipse.wst.wsdl.ui.internal.WSDLPreferencePage"/>
+			<item value="org.eclipse.pde.ui.TargetPlatformPreferencePage"/>
+			<item value="org.eclipse.pde.ui.MainPreferencePage"/>
 			<item value="org.eclipse.egit.ui.StagingView"/>
 			<item value="org.eclipse.ui.views.ContentOutline"/>
 			<item value="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 			<item value="org.eclipse.tm4e.ui.preferences.ThemePreferencePage"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.preferences"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
@@ -19,11 +25,17 @@
 		</list>
 		<list key="textEntries">
 			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
 			<item value="2"/>
 			<item value="2"/>
 			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="wsdl"/>
+			<item value="plugin"/>
+			<item value="plugi"/>
 			<item value="git"/>
 			<item value="outli"/>
 			<item value="outl"/>
@@ -33,6 +45,11 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.ws.internal.consumption.ui.wizard.client.clientwizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+			<item value="org.eclipse.jst.ws.ui.new"/>
+		</list>
 	</section>
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.m2e.core.wizards.Maven2ImportWizard"/>
